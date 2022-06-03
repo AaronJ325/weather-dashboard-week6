@@ -1,0 +1,86 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#input-label {
+    min-width: 50%;
+    font-size: 1em;
+}
+
+#submit-button {
+    min-width: 50%;
+    font-size: 1em;
+}
+
+#city-header {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#city-list {
+    max-height: 250px;
+    margin-bottom: 0px;
+}
+
+#city-list li {
+    font-size: 1em;
+}
+
+#city-list + img {
+    max-width: 200px;
+}
+
+#id-forecast-header {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.class-card {
+    background-color: rgb(0, 192, 182);
+}
+
+.class-card-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: none;
+}
+
+.class-card-body {
+    padding: 0.5em 0 0.5em 0;
+}
+
+.card-body ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body ul li {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0.1em;
+    padding: .5em;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (min-width: 576px) {
+    #input-label, #submit-button, #previous-cities-div {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #input-label, #submit-button, #previous-cities-div {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #page-header{
+        background-position: 50%;
+    }
+}
